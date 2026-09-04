@@ -12,11 +12,21 @@ int main()
     float B;
     float X;
 
-    cout << "please enter a value for A: ";
+    cout << "Hello, my name is Grant and I can solve the following equation:" << endl;
+    
+    cout << "Ax + B = 0" << endl;
+    
+    cout << "for x" << endl;
+    
+
+    cout << "Please enter a value for A: ";
     cin >> A;
 
-    cout << "A=" << A << endl;
-    
-    B = (A * 4) + 1;
-    cout << "And B=" << B << endl;
-}
+    cout << "Please enter a value for B: ";
+    cin >> B;
+
+    cout << "Solving" << A << "x + " << B << " = 0" << endl;
+
+    cout << "The answer is x = " << (-B / A) << endl;
+
+};
