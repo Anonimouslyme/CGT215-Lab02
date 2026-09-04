@@ -10,7 +10,6 @@ int main()
 {
     float A;
     float B;
-    float X;
 
     cout << "Hello, my name is Grant and I can solve the following equation:" << endl;
     
