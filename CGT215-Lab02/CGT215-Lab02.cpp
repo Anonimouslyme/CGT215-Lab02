@@ -24,7 +24,7 @@ int main()
     cout << "Please enter a value for B: ";
     cin >> B;
 
-    cout << "Solving" << A << "x + " << B << " = 0" << endl;
+    cout << "Solving " << A << "x + " << B << " = 0" << endl;
 
     cout << "The answer is x = " << (-B / A) << endl;
 
